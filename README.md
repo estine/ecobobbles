@@ -25,14 +25,3 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - *LVFX* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack
     - *EvoMunger* - Evolutionary Algorithm Model Sound Transformer
 
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
