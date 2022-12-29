@@ -11,7 +11,7 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Author(s)
 
-- [@elistine](https://www.github.com/elistine)
+- [@estine](https://www.github.com/estine)
 
 
 ## Bobbles
