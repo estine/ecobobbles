@@ -25,3 +25,14 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - *LVFX* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack
     - *EvoMunger* - Evolutionary Algorithm Model Sound Transformer
 
+## Goals / Hopes / Dreams
+
+- RNBO exported VSTs without GUI (Max)
+- JUCE- or HISE-created VSTs with GUI (C++, Javascript)
+- M4L devices for Ableton Live with GUI (Max)
+
+- Slick, easy to evaluate and execute GUIs
+- Comprehensive but not overwhelming parameter spaces
+- Lots of audio demos and use within my own music
+- Async as well as syncing to BPM and beat grid
+
