@@ -27,12 +27,14 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Goals / Hopes / Dreams
 
+#### Export Targets
 - RNBO exported VSTs without GUI (Max)
 - JUCE- or HISE-created VSTs with GUI (C++, Javascript)
 - M4L devices for Ableton Live with GUI (Max)
 
+#### Design Principles
 - Slick, easy to evaluate and execute GUIs
-- Comprehensive but not overwhelming parameter spaces
-- Lots of audio demos and use within my own music
+- Comprehensive but not overwhelming parameter spaces (use multiplexing)
+- Lots of audio demos and use within my music
 - Async as well as syncing to BPM and beat grid
 
