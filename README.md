@@ -38,18 +38,18 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - Lots of audio demos and use within my music
 - Async as well as syncing to BPM and beat grid
 
-## Timeline
+## Timeline / Tasks
 
 #### Q1 = January - March
 - [ ] Start making basic plug-ins in JUCE, to learn both backend and frontend C++
 - [ ] Mockup EcoBobbles in Max, conscious of RNBO~ limitations, target is M4L devices
 
 #### Q2 = April - June
-- Create M4L devices, explore GUI design
-- Get functioning as VSTs using RNBO~, test within compositions
+- [ ] Create M4L devices, explore GUI design
+- [ ] Get functioning as VSTs using RNBO~, test within compositions
 
 #### Q3 = July - September
-- Create full-fledged, custom GUI versions in JUCE
+- [ ] Create full-fledged, custom GUI versions in JUCE
 
 #### Q4 = October - December
-- Documentation creation, final touches, and release
+- [ ] Documentation creation, final touches, and release
