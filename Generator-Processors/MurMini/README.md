@@ -24,6 +24,8 @@ MurMini is a miniaturized verison of the [Murmurator](https://elistine.com/compo
 
 ## GUI
 
+<img width="915" alt="MurMini_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/210636393-f802c1ab-da39-4f32-8f8e-c48b6387f756.png">
+
 - Visualization - visualizes the locations of the agents in 3D or 2D space 
 - Flock Control - controls the location and properties of the flock
 - Agent Effectors - matrix that allows for mappings between flock dynamics and sonic parameters
