@@ -21,9 +21,9 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - [*MurMini* — Flocking Simulation-Driven Granular Synthesizer](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/MurMini)
     - [*AcousTransMini* — Acoustic Niche Hypothesis-Informed Sound Mapper](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/AcousTransMini)
 
-- #### Effects-LFOs
-    - [*EvoFX* - Evolutionary Algorithm Model Sound Transformer](https://github.com/estine/ecobobbles/tree/main/Effects-LFOs/EvoFX)
-    - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack](https://github.com/estine/ecobobbles/tree/main/Effects-LFOs/LVLFO)
+- #### FX-LFOs
+    - [*EvoFX* - Evolutionary Algorithm Model Sound Transformer](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
+    - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
 
 
 ## Goals / Hopes / Dreams
