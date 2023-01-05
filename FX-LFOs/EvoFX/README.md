@@ -1,13 +1,13 @@
 
-# EvoMunger (or perhaps EvoFX)
+# EvoFX
 
-Evolutionary Algorithm Model Sound Transformer (or perhaps EvoFX)
+Evolutionary Algorithm Model Sound Transformer
 
 Part of EcoBobbles: ecologically informed VST Plug-ins and M4L Devices for sound creation and manipulation. Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
 
 ## Overview
 
-EvoMunger (*Evolutionary Munger*) is a sound transformer (*munger*) that uses an evolutionary algorithm to inform its sound processing. A classical evolutionary algorithm ('survival of the fittest') consists of the following steps:
+EvoFX (*Evolutionary Effects*) is a sound transformer (*effects rack*) that uses an evolutionary algorithm to inform its sound processing. A classical evolutionary algorithm ('survival of the fittest') consists of the following steps:
 
 0. Create a population of individuals with some quantifiable DNA
 1. Cull some individuals using their DNA based on some fitness function

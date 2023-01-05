@@ -22,8 +22,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - *AcousTransMini* — Acoustic Niche Hypothesis-Informed Sound Mapper
 
 - #### Effects
-    - *LVFX* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack
-    - *EvoMunger* - Evolutionary Algorithm Model Sound Transformer
+    - *LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack
+    - *EvoFX* - Evolutionary Algorithm Model Sound Transformer
 
 ## Goals / Hopes / Dreams
 
