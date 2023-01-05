@@ -7,13 +7,6 @@ Ecologically informed VST Plug-ins and M4L Devices for sound creation and manipu
 Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
 
 
-
-
-## Author(s)
-
-- [@estine](https://www.github.com/estine)
-
-
 ## Plug-ins
 
 - #### Generator-Processors
@@ -24,6 +17,10 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - #### FX-LFOs
     - [*EvoFX* - Evolutionary Algorithm Model Sound Transformer](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
     - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
+
+## Author(s)
+
+- [@estine](https://www.github.com/estine)
 
 
 ## Goals / Hopes / Dreams
