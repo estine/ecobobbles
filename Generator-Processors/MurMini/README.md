@@ -7,13 +7,10 @@ Part of EcoBobbles: ecologically informed VST Plug-ins and M4L Devices for sound
 
 ## Overview
 
-MurMini is a miniaturized verison of the [Murmurator](https://elistine.com/compositions-blog/2018/4/23/the-murmurator), a flocking simulation-driven software instrument created for use with multi-channel speaker configurations in a collaborative improvisation context. More information at the link.
+MurMini is a miniaturized verison of the [Murmurator](https://elistine.com/compositions-blog/2018/4/23/the-murmurator), a flocking simulation-driven software instrument created for use with multi-channel speaker configurations in a collaborative improvisation context. Read more about the Murmurator in the following paper: 
 
-- Flocking simulation (Boids), with visualization
-- Flock controls, with controllable GUI
-- Granular synthesizer
-- Effects (filtering, delay, reverb)
-- Effectors matrix, with controllable GUI
+> Eli Stine and Kevin Davis, *[The Murmurator: A Flocking Simulation-Driven MultiChannel Software Instrument for Collaborative Improvisation](https://elistine.com/writing-blog/2018/4/14/the-murmurator)* in Proceedings
+of the 2018 International Computer Music Conference (Daegu, Korea), 81-86.
 
 ## Modes / Features
 
@@ -21,6 +18,14 @@ MurMini is a miniaturized verison of the [Murmurator](https://elistine.com/compo
     - Live audio sent into MurMini is sampled and processed in real-time
 - File Processing Mode
     - A file loaded into MurMini is used as source material for the granulator
+
+## Components
+
+- Flocking simulation (Boids), with visualization
+- Flock controls, with controllable GUI
+- Granular synthesizer
+- Effects (filtering, delay, reverb)
+- Effectors matrix, with controllable GUI
 
 ## GUI
 
