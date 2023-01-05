@@ -1,37 +1,33 @@
 
-# MurMini
+# EvoMunger (or perhaps EvoFX)
 
-Flocking Simulation-Driven Granular Synthesizer
+Evolutionary Algorithm Model Sound Transformer (or perhaps EvoFX)
 
 Part of EcoBobbles: ecologically informed VST Plug-ins and M4L Devices for sound creation and manipulation. Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
 
 ## Overview
 
-MurMini is a miniaturized verison of the [Murmurator](https://elistine.com/compositions-blog/2018/4/23/the-murmurator), a flocking simulation-driven software instrument created for use with multi-channel speaker configurations in a collaborative improvisation context. Read more about the Murmurator in the following paper: 
+EvoMunger (*Evolutionary Munger*) is a sound transformer (*munger*) that uses an evolutionary algorithm to inform its sound processing. A classical evolutionary algorithm ('survival of the fittest') consists of the following steps:
 
-> Eli Stine and Kevin Davis, *[The Murmurator: A Flocking Simulation-Driven MultiChannel Software Instrument for Collaborative Improvisation](https://elistine.com/writing-blog/2018/4/14/the-murmurator)* in Proceedings
-of the 2018 International Computer Music Conference (Daegu, Korea), 81-86.
+0. Create a population of individuals with some quantifiable DNA
+1. Cull some individuals using their DNA based on some fitness function
+2. Breed the individuals (intermixing their DNA + introducing mutations)
+3. Go back to step 1 until the result is little to no culling (a resistant population)
 
-## Modes / Features
+Here, the population is a preset library, individual's DNA is an encoding of FX settings, and the fitness function is defined by the user, according to their taste and musical goal.
 
-- Audio Passthrough Mode
-    - Live audio sent into MurMini is sampled and processed in real-time
-- File Processing Mode
-    - A file loaded into MurMini is used as source material for the granulator
+Inspired by acousmatic evolutionary algorithm generation Ph.D. at CCRMA - what was her name again? Christine spelled uniquely?
 
-## Components
+## Features
 
-- Flocking simulation (Boids), with visualization
-- Flock controls, with controllable GUI
-- Granular synthesizer
-- Effects (filtering, delay, reverb)
-- Effectors matrix, with controllable GUI
+- FX Bank:
+    a la RC-20 components: noise, wow/flutter, distortion, sub out digital for gross beat-esque glitching, reverb.
+- Dynamically Updating Preset Library
 
 ## GUI
 
-<img width="915" alt="MurMini_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/210636393-f802c1ab-da39-4f32-8f8e-c48b6387f756.png">
+<TODO: GUI>
 
-- Visualization - visualizes the locations of the agents in 3D or 2D space 
-- Flock Control - controls the location and properties of the flock
-- Agent Effectors - matrix that allows for mappings between flock dynamics and sonic parameters
-    - At first make the effectors global, with ability to add randomness
+- Population Visualization - visualizes the current population
+- Fitness Function Control - allows the user to define a fitness function
+- FX GUI - shows current GUI settings, allowing for fine tuning
