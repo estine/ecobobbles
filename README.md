@@ -15,8 +15,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - [*AcousTransMini* — Acoustic Niche Hypothesis-Informed Sound Mapper](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/AcousTransMini)
 
 - #### FX-LFOs
-    - [*EvoFX* - Evolutionary Algorithm Model Sound Transformer](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
-    - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
+    - [*EvoFX* - Evolutionary Algorithm Controlled Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
+    - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) LFO Bank](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
 
 ## Author(s)
 
