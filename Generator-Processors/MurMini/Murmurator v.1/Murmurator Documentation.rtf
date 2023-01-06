@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\info
+{\author Eli Stine}}\margl1440\margr1440\vieww25320\viewh14480\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Murmurator Documentation\
+\
+The murmurator is a flocking simulation-controlled ambisonic polyphonic grain generator. Put another way, the murmurator is a multi-audio file granular synthesizer with an emphasis on spatialization and dynamic grain control. It may be used within performance and/or sound design contexts. As a function of its use of ambisonics, it may be used with any 2-dimensional speaker configuration (and hopefully 3-dimensional configurations in the future).\
+\
+Global Settings\
+	Master On / Agent Count\
+		Turns audio and flocking simulation on/off\
+		Number of agents/polyphony of grain generator (will momentarily freeze program when changed)\
+	Speaker Setup\
+		Pop-up window that displays an ICST Ambimonitor, allowing user to match their speaker config.\
+	Source Sound\
+		Click append to add a single sound, readfolder to load a folder of sounds, and clear to remove all sounds\
+		Multislider display shows name of audio file when hovered over, and bars for each name indicate the probability of each grain generator sampling that file\
+	Presets\
+		read loads in a set of global presets, writejson writes out a set of global presets\
+		The slider below the preset object allows the user to linearly interpolate between the different presets (entered into the number boxes)\
+	Volume Envelope\
+		The shapes of the volume envelope for each grain. Triangle and Hanning reset the grain shape.\
+	EQ\
+		Post FX control over the master equalization curve of audio output\
+	Peak Limiter\
+		Prevents blow-ups via a multi-channel omx.peaklim~ object. The lower the slider the lower the limiting threshold.\
+\
+Recording\
+	Parameter Automation\
+		The manipulation of several parameters in the patch (translate, scale, rotate, active agent count, and distortion) may be recorded. To record, you must first record enable the desired parameter(s) by pressing the LED below them. Then press and hold down the space bar while changing the parameter. Release the space bar and the parameter will be played back. To re-play, stop, loop, or change the speed of automation play back interact with either the respective master controls (in this section) or the controls underneath each recordable parameter.\
+	Audio Output Recording\
+		Click open to create an audio file, toggle to start and stop recording. Time recorded is shown.\
+\
+Agent Viewer\
+	Displays the location of the agents in 2-dimensional ambisonic space on a unit circle, with the listener\'92s POV at its center.\
+\
+Flock Control:\
+	Translate, Scale, Rotate\
+		Controls these geometrical transforms for the entire set of agents (also interacts with flocking behavior)\
+	Separation/Spacing Quick Change XY\
+		An XY-slider which allows one to quickly change multiple highly-affecting flocking simulation parameters at once.\
+	Boid Simulation Parameters\
+		The respective parameters of the flocking simulation: separation, alignment, inertia, gravity, separation threshold, coherence, friction, and maximum velocity\
+\
+Group Control\
+	Group Size\
+		Number of agents in a group\
+	Group Control Method\
+		Turn on and off, choose different types of control methods (random, rotate, etc.), and the intensity of the control method applied to each group\
+\
+Effector Control\
+		Effector Control lets the user have different parameters of the grain generators controlled by characteristics of the agents associated with them\
+	Velocity / Distance from Center\
+		Velocity corresponds to the speed of the agent, distance from center is the agent\'92s distance from the listener\'92s position\
+	Intensity\
+		Intensity determines how much the velocity and distance from center of each agent affects each parameter (from no effect to a very exaggerated effect)\
+	Volume, Speed, Filter Mix, Filter Frequency, Filter Resonance, Distortion, Duration, Start, Rate		Corresponds to the parameters of the grain generator that may be controlled. For example, if the effector dial for volume X distance from listener is turned to the left, as the distance from the center of the agent increases, the volume of the corresponding grain generator will go up. If that same dial is turned to the right as the agent goes further away its volume will decrease.\
+\
+Granular Synth Control\
+	Number of Active Grains\
+		The number of grain generators that are producing grains. The volume change parameter is the speed in milliseconds at which the grain generators are faded in/out.\
+	Rate Range\
+		Range of time in milliseconds that functions as the randomly chosen pool of rates at which each grain generator attempts to produce a grain\
+	Duration Range\
+		Range of time in milliseconds that functions as the randomly chosen pool of durations for each grain\
+	Start Range (Automation (Scrub, Brownian Motion), Range Width, Point Slider)\
+		Range of location in file (percentage) that functions as the randomly chosen pool of start locations for each grain\
+		This may be automated by toggling on the automation functionality (and changing the scrub and/or drunk percentage per second parameters) or you may select only a single location in the files by clicking and dragging the slider above the range slider. The size of this single window may be changed by the range width percentage.\
+	Volumes\
+		Specifies the volume of each grain generator (from left to right, 1 to agent count). A master slider that affects all grain generators is provided.\
+	Speeds (with transposition keyboard and deviation)\
+		Specifies the playback speed of each grain generator (from left to right, 1 to agent count). A master slider that affects all grain generators is provided.\
+		Playing notes on the keyboard also controls speeds, with the speeds corresponding to notes in a depressed chord (relative to middle C) being distributed over the entire set of grain generators (for example, if you play C4 and D4 on the keyboard and have an agent count of 20, 10 of the grain generators will be at normal speed, 10 will be playing back faster)\
+	Filter Frequencies\
+		Specifies the filter frequency of each grain generator (from left to right, 1 to agent count). A master slider that affects all grain generators is provided.\
+	Filter Mix, Resonance, and Type\
+		Filter mix dictates how much of the filtered signal is mixed with the dry signal, resonance dictates the filter resonance, and type may be changed from bandpass or lowpass filter\
+	Delay Mix, Feedback\
+		Delay mix dictates how much of the delayed signal is mixed with the dry signal, delay feedback dictates how much of the delayed signal is fed back into the delay line\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 	Delay Length Range, Delay Change Rate Range\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 		The murmurator delay line was created to maximize perceived density of the grain generator: as a function of this it is a four tap delay line, with each tap constantly changing its delay length within a specified range of millisecond values (delay length range) at a specified rate (delay change rate range)\
+	Distortion Amount\
+		Specifies the amount of distortion applied to the signal using an overdrive algorithm.\
+\
+	Effects chain: Distortion -> Filtering -> Delay -> Volume\
+	}

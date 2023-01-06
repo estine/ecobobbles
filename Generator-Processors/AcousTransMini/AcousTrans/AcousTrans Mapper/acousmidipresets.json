@@ -1,0 +1,375 @@
+{
+	"pattrstorage" : 	{
+		"name" : "acousmidipresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 60 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ],
+							"release" : [ "value", 5 ]
+						}
+ ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"location" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"attack" : [ "transfunc", 2, 1, 0, 127, 0, 71 ],
+							"decay" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "transfunc", 2, 1, 0, 127, 0, 127 ]
+						}
+ ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "transfunc", 2, 1, 33, 87, 0, 127 ],
+							"location" : [ "transfunc", 3, 1, 0, 127, 0, 127 ],
+							"playbackrate function" : [ 500, 100, 50, 0.0, 0.0, 0.0, 0.345833, 95.685417, 0.2, 0.1625, 37.523693, 0.55, 0.7375, 78.799751, 0.3, 0.0, 287.99115, 0.45 ],
+							"playbackrate" : [ "transfunc", 2, 1, 33, 97, 100, 127 ],
+							"sustain function" : [ 500, 100, 10, 0.0, 0.0, 0.0, 1.0, 46.904617, 0.0, 0.0, 453.095398, -0.395 ],
+							"sustain" : [ "value", 0 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "gaussian", 1, 50, 100 ],
+							"attack" : [ "transfunc", 4, 1, 0, 127, 0, 127 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "transfunc", 4, 1, 0, 127, 0, 127 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filterres function" : [ 200, 10, 10, 0.0, 0.0, 0.0, 0.1, 200.0, 0.495 ],
+							"filterres" : [ "value", 112 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 50 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 43 ],
+							"sustain function" : [ 1000, 100, 10, 1.0, 0.0, 0.0, 0.0, 988.74292, -0.65 ],
+							"sustain" : [ "value", 0 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "gaussian", 1, 50, 300 ],
+							"attack" : [ "value", 13 ],
+							"decay" : [ "value", 56 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 92 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "gaussian", 1, 10, 200 ]
+						}
+ ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 40 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 40 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 40 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 40 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "value", 0 ],
+							"location" : [ "value", 0 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 40 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "value", 127 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "value", 64 ],
+							"attack" : [ "value", 5 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 0 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "value", 0 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 0 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ],
+							"release" : [ "value", 0 ]
+						}
+ ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "transfunc", 4, 1, 0, 4, 0, 127 ],
+							"location" : [ "gaussian", 1, 50, 119 ],
+							"playbackrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"playbackrate" : [ "value", 60 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "transfunc", 4, 2, 0, 5, 40, 121 ],
+							"spatialization function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"spatialization" : [ "transfunc", 3, 1, 0, 127, 0, 127 ],
+							"attack" : [ "value", 25 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 54 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 58 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "value", 0 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "value", 0 ],
+							"release" : [ "transfunc", 4, 2, 0, 4, 14, 127 ],
+							"delaymix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"delaymix" : [ "transfunc", 4, 2, 0, 4, 0, 127 ],
+							"delayfdbk function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"delayfdbk" : [ "transfunc", 4, 2, 0, 4, 0, 127 ],
+							"combmix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"combmix" : [ "value", 21 ],
+							"combrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"combrate" : [ "transfunc", 2, 1, 0, 8, 12, 45 ],
+							"combfdbk function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"combfdbk" : [ "transfunc", 4, 2, 0, 4, 99, 122 ],
+							"freezemix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"freezemix" : [ "value", 86 ],
+							"freezeattack" : [ "value", 0 ],
+							"freezerelease" : [ "value", 52 ],
+							"freezesensitivity function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"freezesensitivity" : [ "value", 92 ]
+						}
+ ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"map_presets" : [ 						{
+							"file" : [ "transfunc", 4, 1, 0, 4, 0, 127 ],
+							"location" : [ "transfunc", 3, 1, 0, 127, 0, 127 ],
+							"playbackrate function" : [ 400, 100, 50, 0.0, 0.0, 0.0, 0.045833, 88.555916, 0.0, 0.0, 99.062546, 0.0, 0.1125, 108.068237, 0.0, 0.0, 104.313301, 0.0 ],
+							"playbackrate" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"sustain function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"sustain" : [ "transfunc", 4, 1, 0, 5, 32, 112 ],
+							"spatialization function" : [ 1000, 100, 50, 0.0, 0.0, 0.0, 0.704167, 191.370834, 0.0, 0.120833, 240.151627, 0.0, 0.545833, 330.208496, 0.0, 0.0, 238.269043, 0.0 ],
+							"spatialization" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"attack" : [ "value", 6 ],
+							"decay" : [ "value", 5 ],
+							"filtermix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filtermix" : [ "value", 127 ],
+							"filterfreq function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterfreq" : [ "transfunc", 2, 1, 0, 127, 0, 127 ],
+							"filterres function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"filterres" : [ "value", 64 ],
+							"stutterprob function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterprob" : [ "transfunc", 3, 1, 0, 127, 60, 127 ],
+							"stutterrate function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"stutterrate" : [ "gaussian", 1, 10, 100 ],
+							"release" : [ "transfunc", 4, 2, 0, 4, 0, 72 ],
+							"delaymix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"delaymix" : [ "transfunc", 4, 2, 0, 4, 3, 127 ],
+							"delayfdbk function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"delayfdbk" : [ "transfunc", 4, 2, 0, 4, 5, 31 ],
+							"combmix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"combmix" : [ "value", 118 ],
+							"combrate function" : [ 100, 100, 50, 0.0, 0.0, 0.0, 0.295833, 100.0, 0.0 ],
+							"combrate" : [ "transfunc", 3, 1, 0, 127, 0, 127 ],
+							"combfdbk function" : [ 100, 50, 0, 0.0, 0.0, 0.0, 0.202083, 100.0, 0.0 ],
+							"combfdbk" : [ "transfunc", 4, 2, 0, 4, 39, 94 ],
+							"freezemix function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"freezemix" : [ "value", 94 ],
+							"freezeattack" : [ "value", 0 ],
+							"freezerelease" : [ "value", 108 ],
+							"freezesensitivity function" : [ 1000, 10, 10, 0.0, 0.0, 0.0, 0.0, 1000.0, 0.0 ],
+							"freezesensitivity" : [ "value", 111 ]
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
