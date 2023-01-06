@@ -10,9 +10,9 @@ Part of EcoBobbles: ecologically informed VST Plug-ins and M4L Devices for sound
 The Lotka-Volterra equations are nonlinear differential equations that model predator-prey competition between species over time. For example, the two species variant is:
 <br><br>
 
-$dx \over dt$ = &alpha;$x$ - &beta;$xy$,
+$dx \over dt$ = &alpha; $x$ - &beta; $xy$,
 
-$dy \over dt$ = &delta;$x$ - &gamma;$y$,
+$dy \over dt$ = &delta; $x$ - &gamma; $y$,
 
 <br>
 
