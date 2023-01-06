@@ -27,7 +27,7 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 #### Export Targets
 - RNBO exported VSTs without GUI (Max)
-- JUCE- or HISE-created VSTs with GUI (C++, Javascript)
+- RNBO- or JUCE- or HISE-created VSTs with GUI (Max, C++, Javascript)
 - M4L devices for Ableton Live with GUI (Max)
 
 #### Design Principles
