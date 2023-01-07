@@ -32,8 +32,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 #### Design Principles
 - Slick, easy to evaluate and execute GUIs
-- Comprehensive but not overwhelming parameter spaces (use multiplexing)
-- Lots of audio demos and use within my music
+- Comprehensive but not overwhelming parameter spaces (effective parameter multiplexing)
+- Lots of audio demos and use within music
 - Async as well as syncing to BPM and beat grid
 
 ## Timeline / Tasks
