@@ -89,7 +89,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 149.0, 356.0, 640.0, 480.0 ],
+						"rect" : [ 87.0, 635.0, 1489.0, 701.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -365,8 +365,8 @@
 										"minimum" : "<none>",
 										"maximum" : "<none>",
 										"value" : 10.0,
-										"preset" : 0,
-										"order" : ""
+										"order" : "",
+										"preset" : 0
 									}
 ,
 									"rnbo_serial" : 1,
@@ -384,19 +384,19 @@
 									"patching_rect" : [ 441.0, 286.0, 268.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"ctlin" : 0.0,
 										"sendinit" : 1,
-										"maximum" : 1.0,
-										"displayorder" : "-",
-										"steps" : 0.0,
-										"displayname" : "",
-										"unit" : "",
-										"fromnormalized" : "",
 										"enum" : "",
-										"tonormalized" : "",
-										"minimum" : 0.0,
-										"meta" : "",
+										"ctlin" : 0.0,
+										"displayname" : "",
+										"steps" : 0.0,
+										"maximum" : 1.0,
+										"fromnormalized" : "",
+										"unit" : "",
 										"exponent" : 1.0,
+										"meta" : "",
+										"displayorder" : "-",
+										"minimum" : 0.0,
+										"tonormalized" : "",
 										"order" : "0",
 										"preset" : 1
 									}
@@ -811,8 +811,8 @@
 										"minimum" : "<none>",
 										"maximum" : "<none>",
 										"value" : 1.0,
-										"preset" : 0,
-										"order" : ""
+										"order" : "",
+										"preset" : 0
 									}
 ,
 									"rnbo_serial" : 2,
@@ -830,19 +830,19 @@
 									"patching_rect" : [ 399.0, 205.0, 267.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"ctlin" : 0.0,
 										"sendinit" : 1,
-										"maximum" : 1.0,
-										"displayorder" : "-",
-										"steps" : 0.0,
-										"displayname" : "",
-										"unit" : "",
-										"fromnormalized" : "",
 										"enum" : "",
-										"tonormalized" : "",
-										"minimum" : 0.0,
-										"meta" : "",
+										"ctlin" : 0.0,
+										"displayname" : "",
+										"steps" : 0.0,
+										"maximum" : 1.0,
+										"fromnormalized" : "",
+										"unit" : "",
 										"exponent" : 1.0,
+										"meta" : "",
+										"displayorder" : "-",
+										"minimum" : 0.0,
+										"tonormalized" : "",
 										"order" : "0",
 										"preset" : 1
 									}
@@ -1253,16 +1253,16 @@
 									"patching_rect" : [ 164.400000000000006, 356.0, 162.0, 23.0 ],
 									"rnbo_classname" : "granulator~",
 									"rnbo_extra_attributes" : 									{
-										"maxgrains" : 32.0,
+										"startmode" : "samples",
 										"panfademode" : "eqpower",
-										"channelmode" : "clamp",
-										"interp" : "linear",
-										"panboundmode" : "wrap",
-										"winfunc" : "hann(in1)",
-										"lengthmode" : "samples",
 										"panposmode" : "phase",
+										"interp" : "linear",
+										"winfunc" : "hann(in1)",
+										"channelmode" : "clamp",
 										"boundmode" : "wrap",
-										"startmode" : "samples"
+										"maxgrains" : 32.0,
+										"lengthmode" : "samples",
+										"panboundmode" : "wrap"
 									}
 ,
 									"rnbo_serial" : 1,
@@ -1771,7 +1771,7 @@
 										"interval" : 20.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "number~_obj-15",
 									"sig" : 0.0
 								}
@@ -1825,8 +1825,8 @@
 										"minimum" : "<none>",
 										"maximum" : "<none>",
 										"value" : 5.0,
-										"preset" : 0,
-										"order" : ""
+										"order" : "",
+										"preset" : 0
 									}
 ,
 									"rnbo_serial" : 3,
@@ -1844,19 +1844,19 @@
 									"patching_rect" : [ 61.0, 205.0, 218.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
-										"ctlin" : 0.0,
 										"sendinit" : 1,
-										"maximum" : 1.0,
-										"displayorder" : "-",
-										"steps" : 0.0,
-										"displayname" : "",
-										"unit" : "",
-										"fromnormalized" : "",
 										"enum" : "",
-										"tonormalized" : "",
-										"minimum" : 0.0,
-										"meta" : "",
+										"ctlin" : 0.0,
+										"displayname" : "",
+										"steps" : 0.0,
+										"maximum" : 1.0,
+										"fromnormalized" : "",
+										"unit" : "",
 										"exponent" : 1.0,
+										"meta" : "",
+										"displayorder" : "-",
+										"minimum" : 0.0,
+										"tonormalized" : "",
 										"order" : "0",
 										"preset" : 1
 									}
@@ -2268,8 +2268,8 @@
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
-										"samplerate" : 0.0,
 										"fill" : "",
+										"samplerate" : 0.0,
 										"file" : ""
 									}
 ,
@@ -2811,8 +2811,8 @@
 									"rnbo_extra_attributes" : 									{
 										"offset" : 0.0,
 										"syncmode" : "phase",
-										"append" : 0.0,
-										"synctype" : "relative"
+										"synctype" : "relative",
+										"append" : 0.0
 									}
 ,
 									"rnbo_serial" : 1,
@@ -3280,17 +3280,23 @@
 						"bgfillcolor_color2" : [ 0.263682, 0.004541, 0.038797, 1.0 ],
 						"bgfillcolor_angle" : 270.0,
 						"bgfillcolor_proportion" : 0.39,
-						"bgfillcolor_autogradient" : 0.0
+						"bgfillcolor_autogradient" : 0.0,
+						"export_config" : 						{
+							"vst-au-export" : 							{
+								"vst-au-export-ins" : 								{
+									"plugin_name" : "Glitcher",
+									"plugin_manufacturer_name" : "EcoBobbles",
+									"plugin_type" : "Effect"
+								}
+
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 37.0, 49.0, 103.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"rate" : 						{
-							"label" : "rate",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"playbackrate" : 						{
 							"label" : "playbackrate",
 							"isEnum" : 0,
@@ -3299,6 +3305,12 @@
 ,
 						"panrandrate" : 						{
 							"label" : "panrandrate",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate" : 						{
+							"label" : "rate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3412,7 +3424,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "untitled.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
