@@ -39,15 +39,15 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 ## Timeline / Tasks
 
 #### Q1 = January - March
-- [ ] Start making basic plug-ins in JUCE, to learn both backend and frontend C++
-- [ ] Mockup EcoBobbles in Max, conscious of RNBO~ limitations, target is M4L devices
+- [ ] Start making basic plug-ins in JUCE, to learn ~~both backend and~~ **frontend** C++
+- [ ] Mockup EcoBobbles in Max, semi-conscious of RNBO~ limitations, target is RNBO~ without GUIs
 
 #### Q2 = April - June
-- [ ] Create M4L devices, explore mockup GUI design
+- [ ] Explore mockup GUI design
 - [ ] Get functioning as VSTs using RNBO~, test within compositions
 
 #### Q3 = July - September
-- [ ] Create full-fledged, custom GUI versions in JUCE, based off of RNBO~ (?)
+- [ ] Create full-fledged, custom GUI versions in JUCE, based off of RNBO~
 
 #### Q4 = October - December
 - [ ] Documentation creation, final touches, and release
