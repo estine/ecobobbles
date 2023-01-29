@@ -35,7 +35,7 @@ In this plug-in, the size of the populations of the multiple species are used as
 
 ## GUI
 
-<TODO: GUI>
+<img width="915" alt="LVLFO_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/215300499-1a8ba666-75d9-4921-8f1d-717b56df3474.png">
 
 - Species Population Visualization - visualizes the current population
 - Equation Settings - alter the &alpha;, &beta;, &gamma;, and &delta; coefficients, time, and number of species
