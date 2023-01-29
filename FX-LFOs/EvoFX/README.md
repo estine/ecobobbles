@@ -26,7 +26,7 @@ Inspired by acousmatic evolutionary algorithm generation Ph.D. at CCRMA - what w
 
 ## GUI
 
-<img width="915" alt="LVLFO_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/215300499-1a8ba666-75d9-4921-8f1d-717b56df3474.png">
+<img width="915" alt="EvoFX_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/215300501-32f8c6bd-4909-4fe1-bce1-12e752684dd3.png">
 
 - Population Visualization - visualizes the current population
 - Fitness Function Control - allows the user to define a fitness function
