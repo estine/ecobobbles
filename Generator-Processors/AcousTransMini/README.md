@@ -30,7 +30,7 @@ All modes take in live audio (either input alone or input + sidechain)
 
 ## GUI
 
-<TODO: GUI Mockup goes here>
+<img width="915" alt="ATMini_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/215300495-d7a89f29-e474-4254-a07c-e3c1e1d65fd4.png">
 
 - Source Input Settings
 - Destination Input Settings
