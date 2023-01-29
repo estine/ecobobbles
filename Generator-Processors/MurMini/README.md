@@ -30,7 +30,6 @@ of the 2018 International Computer Music Conference (Daegu, Korea), 81-86.
 ## GUI
 
 <img width="915" alt="MurMini_Prelim_GUI" src="https://user-images.githubusercontent.com/1644270/210636393-f802c1ab-da39-4f32-8f8e-c48b6387f756.png">
-![murmini_mockup](https://user-images.githubusercontent.com/1644270/215300494-cac88837-26bf-45d9-baab-94d4367f73df.png)
 
 
 - Visualization - visualizes the locations of the agents in 3D or 2D space 
