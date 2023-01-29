@@ -18,6 +18,9 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     - [*EvoFX* - Evolutionary Algorithm Controlled Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
     - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) LFO Bank](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
 
+- #### Other (TBD)
+    - Data Sonifier - load in a file, sonify it horizontally, vertically, parametrically, etc.
+
 ## Author(s)
 
 - [@estine](https://www.github.com/estine)
