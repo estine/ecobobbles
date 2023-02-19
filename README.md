@@ -41,11 +41,9 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Timeline / Tasks
 
-#### Q1 = January - March
+#### H1 = January - June
 - [ ] Start making basic plug-ins in JUCE, to learn ~~both backend and~~ **frontend** C++
 - [ ] Mockup EcoBobbles in Max, semi-conscious of RNBO~ limitations, target is RNBO~ without GUIs
-
-#### Q2 = April - June
 - [ ] Explore mockup GUI design
 - [ ] Get functioning as VSTs using RNBO~, test within compositions
 
