@@ -39,12 +39,16 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - Lots of audio demos and use within music
 - Async as well as syncing to BPM and beat grid
 
-## Timeline / Tasks
+## Tasks
+
+- [ ] Make a GUI front in JUCE for the SimpleGlitcher (just attach some knobs / faders to it)
+- [ ] MurMini initial version in RNBO (granular synth with params. controlled by flock sim.)
+
+## Timeline
 
 #### H1 = January - June
-- [ ] Start making basic plug-ins in JUCE, to learn ~~both backend and~~ **frontend** C++
+- [ ] Explore mockup GUI design in JUCE 
 - [ ] Mockup EcoBobbles in Max, semi-conscious of RNBO~ limitations, target is RNBO~ without GUIs
-- [ ] Explore mockup GUI design
 - [ ] Get functioning as VSTs using RNBO~, test within compositions
 
 #### Q3 = July - September
