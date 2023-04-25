@@ -12,6 +12,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - #### Generator-Processors
 
     - [*MurMini* — Flocking Simulation-Driven Granular Synthesizer](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/MurMini)
+    
+        [Murmurator Video Demonstration](https://www.instagram.com/reel/CrZG9hdrn_J/)
     - [*AcousTransMini* — Acoustic Niche Hypothesis-Informed Sound Mapper](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/AcousTransMini)
 
 - #### FX-LFOs
