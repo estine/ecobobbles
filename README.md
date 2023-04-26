@@ -17,6 +17,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     ![](https://github.com/estine/ecobobbles/blob/main/Murm_Vid_Short_Comp.gif)
     
     - [*AcousTransMini* — Acoustic Niche Hypothesis-Informed Sound Mapper](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/AcousTransMini)
+    
+    ![](https://github.com/estine/ecobobbles/blob/main/AcousMIDI_v0.png)
 
 - #### FX-LFOs
     - [*EvoFX* - Evolutionary Algorithm Controlled Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
