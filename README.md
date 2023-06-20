@@ -26,6 +26,7 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 - #### Other (TBD)
     - Data Sonifier - load in a file, sonify it horizontally, vertically, parametrically, etc.
+![](https://images.squarespace-cdn.com/content/v1/56536248e4b07f927675796c/1532469671594-QCM6O9MSQGZT9CWUT8FS/pitter.png?format=2500w)
 
 ## Author(s)
 
