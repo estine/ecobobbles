@@ -9,6 +9,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Plug-ins
 
+![](https://github.com/estine/ecobobbles/blob/main/Mockups_for_EcoBobbles_GUIs.png)
+
 - #### Generator-Processors
 
     - [*MurMini* — Flocking Simulation-Driven Granular Synthesizer](https://github.com/estine/ecobobbles/tree/main/Generator-Processors/MurMini)
