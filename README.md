@@ -55,13 +55,16 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Timeline
 
-#### H1 = January - June
+#### Phase I
 - [ ] Explore mockup GUI design in JUCE 
 - [ ] Mockup EcoBobbles in Max, semi-conscious of RNBO~ limitations, target is RNBO~ without GUIs
 - [ ] Get functioning as VSTs using RNBO~, test within compositions
 
-#### Q3 = July - September
+#### Phase II
 - [ ] Create full-fledged, custom GUI versions in JUCE, based off of RNBO~
 
-#### Q4 = October - December
-- [ ] Documentation creation, final touches, and release
+#### Phase III
+- [ ] Documentation creation, final touches, and beta testing
+
+#### Phase IV
+- [ ] Release, promotion
