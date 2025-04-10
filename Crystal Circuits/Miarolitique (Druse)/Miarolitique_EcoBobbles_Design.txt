@@ -1,0 +1,42 @@
+Name:
+
+Druse
+Miarolitic
+Miarolitique*
+Pegmatite
+
+//
+
+Build it in RNBO
+Take MIDI in as an ordered list (from low to high)
+Iterate over that list to generate MIDI notes (using makenote) - based on ordering
+Speed of iteration is based on rate
+Length of note is based on note duration scalars
+Velocity, Octave, and Note deviations are based on scalars
+
+Start with just sliders and then go to am actual crystal-themed front-end...
+
+//
+
+Parameter Space:
+
+MIDI in
+
+Arpeggiation Ordering (Up, Down, All Other Permutations) selection
+Randomize Order scalar
+
+Rate scalar
+
+Note duration scalar
+Note duration as percentage OR as absolute time boolean
+
+Randomize Velocity scalar
+Randomize Octave scalar
+Randomize Notes scalar
+
+(BONUS: MPE parameters for each note, including aftertouch...)
+
+MIDI out
+
+//
+
