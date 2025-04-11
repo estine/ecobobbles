@@ -39,17 +39,6 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Goals / Hopes / Dreams
 
-#### Export Targets
-- RNBO exported VSTs without GUI (Max)
-- RNBO- or JUCE- or HISE-created VSTs with GUI (Max, C++, Cmajor, Javascript)
-- ~M4L devices for Ableton Live with GUI (Max)~
-
-#### Design Principles
-- Slick, pretty easy to evaluate and execute GUIs
-- Comprehensive but not overwhelming parameter spaces (effective parameter multiplexing)
-- Lots of audio demos and use within music
-- Async as well as syncing to BPM and beat grid (essential!)
-
 ## Current Tasks
 
 #### Crystal Circuit Series
@@ -61,6 +50,17 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 #### Modeling Natural Systems Series
 - [ ] MurMini initial version in RNBO (granular synth with params. controlled by flock sim.)
 - [ ] Make a GUI front in JUCE for the SimpleGlitcher (just attach some knobs / faders to it)
+
+#### Export Targets
+- RNBO exported VSTs without GUI (Max)
+- RNBO- or JUCE- or HISE-created VSTs with GUI (Max, C++, Cmajor, Javascript)
+- ~M4L devices for Ableton Live with GUI (Max)~
+
+#### Design Principles
+- Slick, pretty easy to evaluate and execute GUIs
+- Comprehensive but not overwhelming parameter spaces (effective parameter multiplexing)
+- Lots of audio demos and use within music
+- Async as well as syncing to BPM and beat grid (essential!)
 
 ## Timeline
 
