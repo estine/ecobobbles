@@ -48,12 +48,19 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - Slick, pretty easy to evaluate and execute GUIs
 - Comprehensive but not overwhelming parameter spaces (effective parameter multiplexing)
 - Lots of audio demos and use within music
-- Async as well as syncing to BPM and beat grid (essential)
+- Async as well as syncing to BPM and beat grid (essential!)
 
-## Tasks
+## Current Tasks
 
-- [ ] Make a GUI front in JUCE for the SimpleGlitcher (just attach some knobs / faders to it)
+#### Crystal Circuit Series
+- [ ] Miarolitique (deluxe arpeggiator inspired by the formation of crystal clusters, AKA Druses) version in RNBO
+- [ ] Auralattice (crystallography inspired spatializer parameters generating plug-in) version in RNBO
+- [ ] Crystallophon (crystal-inspired simple (?) physical modeling synthesizer) version in RNBO (?)
+- [ ] Amphedra (piezo electricity inspired parameters (?) generating plug-in) version in RNBO
+
+#### Modeling Natural Systems Series
 - [ ] MurMini initial version in RNBO (granular synth with params. controlled by flock sim.)
+- [ ] Make a GUI front in JUCE for the SimpleGlitcher (just attach some knobs / faders to it)
 
 ## Timeline
 
