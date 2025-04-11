@@ -4,9 +4,7 @@
 
 Ecologically informed VST Plug-ins and M4L Devices for sound creation and manipulation. 
 
-Crystal Circuits Series
-
-Modeling Natural Systems Series
+Crystal Circuits Series / Modeling Natural Systems Series
 
 Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
 
