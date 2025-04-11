@@ -4,6 +4,9 @@
 
 Ecologically informed VST Plug-ins and M4L Devices for sound creation and manipulation. 
 
+Crystal Circuits Series
+Modeling Natural Systems Series
+
 Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
 
 
@@ -41,7 +44,7 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 
 ## Current Tasks
 
-#### Crystal Circuit Series
+#### Crystal Circuits Series
 - [ ] Miarolitique (deluxe arpeggiator inspired by the formation of crystal clusters, AKA Druses) version in RNBO
 - [ ] Auralattice (crystallography inspired spatializer parameters generating plug-in) version in RNBO
 - [ ] Crystallophon (crystal-inspired simple (?) physical modeling synthesizer) version in RNBO (?)
