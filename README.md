@@ -22,6 +22,8 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
     
     ![](https://github.com/estine/ecobobbles/blob/main/AcousMIDI_v0.png)
 
+  *Miarolitique* - Druse-inspired Arpeggiator
+
 - #### FX-LFOs
     - [*EvoFX* - Evolutionary Algorithm Controlled Effects Rack](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/EvoFX)
     - [*LVLFO* - Predator-Prey Model (Lotka–Volterra Equations) LFO Bank](https://github.com/estine/ecobobbles/tree/main/FX-LFOs/LVLFO)
@@ -43,10 +45,10 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - ~M4L devices for Ableton Live with GUI (Max)~
 
 #### Design Principles
-- Slick, easy to evaluate and execute GUIs
+- Slick, pretty easy to evaluate and execute GUIs
 - Comprehensive but not overwhelming parameter spaces (effective parameter multiplexing)
 - Lots of audio demos and use within music
-- Async as well as syncing to BPM and beat grid
+- Async as well as syncing to BPM and beat grid (essential)
 
 ## Tasks
 
@@ -56,11 +58,11 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 ## Timeline
 
 #### Phase I
-- [ ] Explore mockup GUI design in JUCE 
 - [ ] Mockup EcoBobbles in Max, semi-conscious of RNBO~ limitations, target is RNBO~ without GUIs
 - [ ] Get functioning as VSTs using RNBO~, test within compositions
 
 #### Phase II
+- [ ] Explore mockup GUI design in JUCE 
 - [ ] Create full-fledged, custom GUI versions in JUCE, based off of RNBO~
 
 #### Phase III
