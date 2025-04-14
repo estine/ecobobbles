@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 902.0, 495.0, 1000.0, 626.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 436.0, 296.0, 1000.0, 626.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 2,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-29",
@@ -100,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.5, 239.0, 146.0, 75.0 ],
+					"patching_rect" : [ 432.5, 239.0, 146.0, 74.0 ],
 					"text" : "GUI should modify these parameters by changing the parameters of a crystal, or cluster of crystals (Druse)"
 				}
 
@@ -126,42 +101,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 553.0, 901.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -297,17 +246,11 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-6"
 					}
 ,
 					"patching_rect" : [ 356.0, 149.0, 77.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
 					"text" : "p makenotes"
 				}
 
@@ -384,8 +327,8 @@
 							"parsestring" : ""
 						}
 ,
-						"length" : 						{
-							"label" : "length",
+						"notesVariance" : 						{
+							"label" : "notesVariance",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -396,14 +339,14 @@
 							"parsestring" : ""
 						}
 ,
-						"velocityVariance" : 						{
-							"label" : "velocityVariance",
+						"lengthVariance" : 						{
+							"label" : "lengthVariance",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"notesVariance" : 						{
-							"label" : "notesVariance",
+						"length" : 						{
+							"label" : "length",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -414,14 +357,8 @@
 							"parsestring" : ""
 						}
 ,
-						"octaveDisplacementRange" : 						{
-							"label" : "octaveDisplacementRange",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"lengthVariance" : 						{
-							"label" : "lengthVariance",
+						"velocityVariance" : 						{
+							"label" : "velocityVariance",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -431,10 +368,16 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
+,
+						"octaveDisplacementRange" : 						{
+							"label" : "octaveDisplacementRange",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
 
 					}
 ,
-					"rnboversion" : "1.2.6",
+					"rnboversion" : "1.3.4",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -463,35 +406,6 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"__presetid" : "miarolitique",
-							"lengthVariance" : 							{
-								"value" : 0.0
-							}
-,
-							"setVelocity" : 							{
-								"value" : 64.0
-							}
-,
-							"octaveDisplacementRange" : 							{
-								"value" : 1.0
-							}
-,
-							"length" : 							{
-								"value" : 5.0
-							}
-,
-							"velocityVariance" : 							{
-								"value" : 20.0
-							}
-,
-							"rate" : 							{
-								"value" : 100.0
-							}
-,
-							"octaveDisplacementProb" : 							{
-								"value" : 54.0
-							}
-,
 							"rateVariance" : 							{
 								"value" : 10.0
 							}
@@ -499,7 +413,36 @@
 							"notesVariance" : 							{
 								"value" : 0.0
 							}
-
+,
+							"octaveDisplacementRange" : 							{
+								"value" : 1.0
+							}
+,
+							"octaveDisplacementProb" : 							{
+								"value" : 54.0
+							}
+,
+							"lengthVariance" : 							{
+								"value" : 0.0
+							}
+,
+							"length" : 							{
+								"value" : 5.0
+							}
+,
+							"rate" : 							{
+								"value" : 100.0
+							}
+,
+							"velocityVariance" : 							{
+								"value" : 20.0
+							}
+,
+							"setVelocity" : 							{
+								"value" : 64.0
+							}
+,
+							"__presetid" : "miarolitique"
 						}
 ,
 						"snapshotlist" : 						{
@@ -514,35 +457,6 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"__presetid" : "miarolitique",
-										"lengthVariance" : 										{
-											"value" : 0.0
-										}
-,
-										"setVelocity" : 										{
-											"value" : 64.0
-										}
-,
-										"octaveDisplacementRange" : 										{
-											"value" : 1.0
-										}
-,
-										"length" : 										{
-											"value" : 5.0
-										}
-,
-										"velocityVariance" : 										{
-											"value" : 20.0
-										}
-,
-										"rate" : 										{
-											"value" : 100.0
-										}
-,
-										"octaveDisplacementProb" : 										{
-											"value" : 54.0
-										}
-,
 										"rateVariance" : 										{
 											"value" : 10.0
 										}
@@ -550,7 +464,36 @@
 										"notesVariance" : 										{
 											"value" : 0.0
 										}
-
+,
+										"octaveDisplacementRange" : 										{
+											"value" : 1.0
+										}
+,
+										"octaveDisplacementProb" : 										{
+											"value" : 54.0
+										}
+,
+										"lengthVariance" : 										{
+											"value" : 0.0
+										}
+,
+										"length" : 										{
+											"value" : 5.0
+										}
+,
+										"rate" : 										{
+											"value" : 100.0
+										}
+,
+										"velocityVariance" : 										{
+											"value" : 20.0
+										}
+,
+										"setVelocity" : 										{
+											"value" : 64.0
+										}
+,
+										"__presetid" : "miarolitique"
 									}
 ,
 									"fileref" : 									{
@@ -558,7 +501,7 @@
 										"filename" : "miarolitique.maxsnap",
 										"filepath" : "~/Documents/Max 9/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "65e010dd4634f6f00fbc1a2ad89394a1"
+										"snapshotfileid" : "8a85498250759e0b90800e9af8fd7056"
 									}
 
 								}
@@ -772,6 +715,7 @@
 
 			}
  ],
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-3" : [ "rnbo~", "rnbo~", 0 ],
 			"parameterbanks" : 			{
@@ -787,8 +731,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "miarolitique.maxsnap",
+				"bootpath" : "~/Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "miarolitique.rnbopat",
-				"bootpath" : "~/Documents/GitHub/ecobobbles/Crystal Circuits/Miarolitique (Druse)",
+				"bootpath" : "~/Desktop/Code/ecobobbles/Crystal Circuits/Miarolitique (Druse)",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1
