@@ -1,9 +1,13 @@
 
-# LVLFO
+# LVO (formerly) LVLFO
 
 Predator-Prey Model (Lotka–Volterra Equations) LFO Bank
 
 Part of EcoBobbles: ecologically informed VST Plug-ins and M4L Devices for sound creation and manipulation. Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immersive Electroacoustic Music*](http://www.elistine.com/diss).
+
+## TODO:
+Parameters define and make video on it
+For GUI, test React-JUCE, raw C++, and other options for it
 
 ## Overview
 
@@ -31,7 +35,7 @@ $dx \over dt$ and $dy \over dt$ are the instantaneous growth rates of the two sp
 
 Solving for this results in really interesting cyclical behavior between the two species, which can be altered dramatically by changing the coefficients. The [generalized Lotka-Volterra equation](https://en.wikipedia.org/wiki/Generalized_Lotka%E2%80%93Volterra_equation) allows for $N$ species.
 
-In this plug-in, the size of the populations of the multiple species are used as control rate (LFO) data, to control any musical parameters desired.
+In this plug-in, the size of the populations of the multiple species are used as control rate (LFO) data, to control any musical parameters desired via 14-bit CC values (0-3 currently). Additionally, because the system internally runs at audio rate, audio outputs 1-4 from the plug-in may be heard directly as audio, although this requires turning up the rate.
 
 ## GUI
 
