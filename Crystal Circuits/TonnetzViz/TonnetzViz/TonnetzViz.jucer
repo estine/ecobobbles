@@ -13,6 +13,9 @@
       <FILE id="MYLnsf" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="liSfQd" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="rMUvyK" name="ChordAnalyzer.cpp" compile="1" resource="0"
+            file="Source/ChordAnalyzer.cpp"/>
+      <FILE id="kdbEGc" name="ChordAnalyzer.h" compile="0" resource="0" file="Source/ChordAnalyzer.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

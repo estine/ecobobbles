@@ -21,12 +21,10 @@ void TonnetzAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce:
         if (msg.isNoteOn())
         {
             activeNotes.insert(msg.getNoteNumber());
-            DBG("Note On: " << msg.getNoteNumber());
         }
         else if (msg.isNoteOff())
         {
             activeNotes.erase(msg.getNoteNumber());
-            DBG("Note Off: " << msg.getNoteNumber());
         }
     }
 }
@@ -40,6 +38,8 @@ std::set<int> TonnetzAudioProcessor::getActiveNotes() const
 {
     return activeNotes;
 }
+
+
 
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {

@@ -11,10 +11,11 @@ public:
     ~TonnetzAudioProcessorEditor() override;
 
     void paint(juce::Graphics&) override;
-    void resized() override {}
+    void resized() override;
 
     void timerCallback() override;
     std::set<int> currentActiveNotes;
+
 
 private:
     TonnetzAudioProcessor& processor;

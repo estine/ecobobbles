@@ -1,10 +1,22 @@
-#include "PluginEditor.h"
+﻿#include "PluginEditor.h"
+#include "ChordAnalyzer.h"
 #include <cmath>
+
+juce::Label chordLabel;
 
 TonnetzAudioProcessorEditor::TonnetzAudioProcessorEditor(TonnetzAudioProcessor& p)
     : AudioProcessorEditor(&p), processor(p)
 {
-    setSize(600, 400);
+    setSize(600, 480);
+    setResizable(true, true);
+    setResizeLimits(600, 480, 3000, 2000);
+    getConstrainer()->setFixedAspectRatio(1.25f); // Optional
+
+    addAndMakeVisible(chordLabel);
+    chordLabel.setFont(juce::Font(getWidth()/14.0f));
+    chordLabel.setColour(juce::Label::textColourId, juce::Colours::orange);
+    chordLabel.setJustificationType(juce::Justification::centred);
+
     startTimerHz(30); // update ~30fps
 }
 
@@ -14,7 +26,10 @@ TonnetzAudioProcessorEditor::~TonnetzAudioProcessorEditor() {}
 void TonnetzAudioProcessorEditor::timerCallback()
 {
     auto newNotes = processor.getActiveNotes();
-    DBG("Active notes count: " << newNotes.size());
+
+    std::string chordName = ChordAnalyzer::analyze(newNotes);
+
+    chordLabel.setText(chordName, juce::dontSendNotification);
 
     if (newNotes != currentActiveNotes)
     {
@@ -23,23 +38,37 @@ void TonnetzAudioProcessorEditor::timerCallback()
     }
 }
 
+void TonnetzAudioProcessorEditor::resized()
+{
+    float fontSize = getWidth() / 14.0f;
+    juce::Font font("Arial Unicode MS", fontSize, juce::Font::bold);
+    chordLabel.setFont(font);
+    chordLabel.setBounds(10, getHeight() - fontSize*2.15f, getWidth() - fontSize, fontSize*2.0f);
+    
+    // You can trigger a repaint here or update layout variables if needed
+    repaint();
+}
+
 
 void TonnetzAudioProcessorEditor::paint(juce::Graphics& g)
 {
 
     g.fillAll(juce::Colours::black);
 
+    float width = getWidth();
+    float height = getHeight();
+
     const int rows = 7, cols = 12;
-    const float radius = 15.0f;
+    const float radius = width/40.0f;
     const float hexWidth = 2.5 * radius;
     const float hexHeight = std::sqrt(3.0f) * radius;
 
     const float spread = 0.8f; // Spread of the nodes
 
-    const float horizOffset = 25.0f;
-    const float vertOffset = 25.0f;
+    const float horizOffset = width/rows/1.6f; // 2/2.5 ratio
+    const float vertOffset = height/cols;
 
-    juce::Font font(radius * 0.9f);
+    juce::Font font("Arial Unicode MS", radius * 0.9f, juce::Font::bold);
     g.setFont(font);
 
     const auto& notes = currentActiveNotes; // processor.getActiveNotes();
