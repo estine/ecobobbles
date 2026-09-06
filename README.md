@@ -1,6 +1,5 @@
 
-# EcoBaubles
-ᵇᶦᵇᵇˡᵉ ᵇᵒᵇᵇˡᵉ
+# Sonotopes
 
 [UNDER MAJOR CONSTRUCTION]
 
