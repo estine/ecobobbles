@@ -16,7 +16,7 @@ Extensions of Eli Stine's 2019 dissertation, [*Modeling Natural Systems in Immer
 - ### IRidesce - Prismatic Ambisonic Reverb
 - ### Polytide - Ebb & Flow Note Generator
 - ### Vitriform - Bowed Glass Orrery
-- ### Spolia - Spectral Recombination Engine
+- ### Spolia - Gesture Recombination Engine
 
 ## Current Tasks
 
